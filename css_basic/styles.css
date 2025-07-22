@@ -36,4 +36,10 @@ aside {
   flex: 1;
   overflow-y: auto;
 }
+ .table-border{
+  border: inset;
+}
+img {
+  width: 200px;
+}
 
