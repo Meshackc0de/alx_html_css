@@ -52,7 +52,6 @@ table {
 	border-spacing: 0;
 } 
 
-
 /* Fonts and colors */
 
 body {
@@ -141,16 +140,12 @@ header a {
 	text-decoration: none;
 }
 
-
-
-
 /* Aside */
 
 aside p {
 	border-radius: 10px;
 	padding: 20px 20px;
 }
-
 
 /* Footer */
 
