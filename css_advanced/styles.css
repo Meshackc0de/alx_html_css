@@ -115,5 +115,28 @@ h2 span {
   font-style: italic;
 }
 
+.pros-items p span {
+  padding-left: 30px;
 
+}
 
+/* testimonials */
+
+.testimonials {
+  background-color: #C271FF;
+  color: #FFFFFF;
+  height: 392px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials div p {
+  font-style: italic;
+  font-size: 18px;
+  padding-left: 40px;
+}
+.testimonials div h4 {
+  padding-left: 40px;
+  padding-top: 10px;
+}
