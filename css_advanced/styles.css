@@ -231,3 +231,58 @@ h2 span {
   color: #FFFFFF;
   background-color: #C271FF;
 }
+
+
+.faq h2 {
+  color: #071629;
+  font-size: 40px;
+  font-weight: 30;
+}
+.faq {
+  background-color: #FFFFFF;
+}
+
+.frequently-asked-questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 950px;
+  gap: 200px;
+  margin-left: auto;
+  margin-right: auto;;
+  
+}
+
+.questions h3 {
+  color: #071629;
+
+}
+
+.question-one {
+  color: rgba(7,22,41,0.5016);
+  line-height: 1.7;
+  padding-top: 20px;
+  
+}
+.question-two {
+  color: rgba(7,22,41,0.5016);
+  line-height: 1.7;
+  padding-top: 20px;
+  
+}
+.question-three {
+  color: rgba(7,22,41,0.5016);
+  line-height: 1.7;
+  padding-top: 20px;
+  
+}
+.question-four {
+  color: rgba(7,22,41,0.5016);
+  line-height: 1.7;
+  padding-top: 20px;
+
+}
+
+.questions-container {
+  padding-top: 60px;
+}
+
