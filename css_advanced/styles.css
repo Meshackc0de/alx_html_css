@@ -286,3 +286,28 @@ h2 span {
   padding-top: 60px;
 }
 
+.footer {
+  height: 240px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+div i {
+  margin-left: 15px;
+}
+
+.last-part {
+  background-color: rgba(7,22,41,0.95);
+  margin-top: 90px;
+
+}
+.last-part p {
+  color: #FFFFFF;
+  opacity: 0.4;
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+
+
