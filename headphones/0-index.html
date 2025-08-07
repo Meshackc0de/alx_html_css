@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="0-styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  <title>Headphones Website</title>
+</head>
+<body>
+  <header class="landing-page">
+    <div class="container">
+      <nav>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+          <img src="/headphones/assets/images/logo_headphones.png" alt="logo" style="height: 32px;width:161px;">
+
+          <ul id="nav-links">
+            <li><a href="#">what we do</a></li>
+            <li><a href="#">our results</a></li>
+            <li><a href="#">contact us</a></li>
+          </ul>
+        </nav>
+        <div class="hero-section">
+          <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+          <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+          <button class="cta-btn">CALL TO ACTION</button>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+    </div>
+    </header>
+    <main>
+    
+    
+  
+    
+
+
+
+
+</main>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navlinks = document.getElementById('nav-links');
+
+  hamburger.addEventListener('click', ()=> {
+    navlinks.classList.toggle('show');
+    hamburger.textContent = hamburger.textContent === '✖' ? '\u2630' : '✖';
+
+  })
+</script>
+  
+</body>
+</html>
